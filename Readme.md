@@ -7,7 +7,7 @@
 <br>
 
 ## Project live link
-[#](# "project01")
+[https://my-netflix-project-clone.netlify.app/](https://my-netflix-project-clone.netlify.app/ "project01")
 
 <hr>
 
