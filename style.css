@@ -1,0 +1,214 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    background-color: black;
+
+}
+.background_image {
+    background: url(images/logo.jpg);
+    background-position: bottom;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+ opacity: 0.8;
+    position: relative;
+    z-index: 1;
+}
+
+.netflix_content {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    padding: 11em;
+    background-image: linear-gradient(149deg,black,transparent);
+    height: 597px;
+    width: 100%;
+    text-align: center;
+}
+
+.netflix_content h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.netflix_content h5 {
+    font-size: 25px;
+}
+
+.netflix_content p {
+    font-size: 17px;
+}
+.mail-box {
+    display: block;
+}
+
+input[type="email"] {
+    height: 6vh;
+    width: 40%;
+}
+
+.mail-box button {
+    width: 15%;
+    height: 6vh;
+    margin-left: -10px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.navbar {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.logo {
+    margin-top: -45px;
+}
+
+.logo img {
+    margin-left: 90px;
+    width: 30%;
+}
+.dropdown {
+    margin-left: 30%;
+    margin-top: -45px;
+    margin-right: 140px;
+}
+
+button.btn.btn-secondary.dropdown-toggle {
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 18px;
+    margin: 24px;
+}
+.dropdown button {padding: 5px 16px 5px 16px;border-radius: 5px;color: white;border: none;background-color: red;}
+hr {
+    margin-top: -1px;
+    padding: 5px;
+    background-color: #adb5bd;
+    left: 0;
+    right: 0;
+}
+.enjoy_tv h1 {
+  
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.enjoy_tv {
+    display: block;
+}
+
+.enjoy_tv p {
+    color: white;
+    font-size: 28px;
+}
+
+.contant {
+    margin-top: 25%;
+    margin-left: 9%;
+}
+img {
+    width: 80%;
+    margin-bottom: 10%;
+    margin-top: 7%;
+    margin-left: 13%;
+}
+video.our-story-card-video {
+    position: absolute;
+    left: 60.6%;
+    top: 100%;
+    width: 24.5%;
+}
+.Questions_bar {
+    margin-top: 45px;
+    display: inline-block;
+    text-align: initial;
+    margin-left: 25%;
+    margin-bottom: 51px;
+}
+
+.heading {
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 60px;
+
+}
+
+.Questions_bar h1 {
+    font-size: 54px;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.questions_box1 {
+    margin: 10px;
+    display: flex;
+    width: 100%;
+    background-color: #303030;
+   
+}
+.questions_box1 h5 {
+    font-size: 25px;
+    color: white;
+    width: 113%;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+.last_box {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.last_box p {
+    font-size: 20px;
+}
+.mail-box1 {
+    width: 54%;
+    text-align: center;
+    margin-left: 23%;
+    display: flex;
+}
+.mail-box1 input[type="email"] {
+    height: 8vh;
+    width: 91%;
+}
+
+.mail-box1 button {
+    width: 36%;
+    height: 8vh;
+    margin-left: -10px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+.footer {
+    width: 100%;
+    display: block;
+    color: #6c757d;
+    margin-top: 50px;
+    margin-left: 5%;
+}
+
+.footer h6 {
+    line-height: 4em;
+}
+
+li {
+    list-style: none;
+    text-transform: capitalize;
+    line-height: 2em;
+    font-size: 14px;
+}
